@@ -1,6 +1,6 @@
 html,body {
 
-    height: 100%;
+    height: 100vh;
     width: 100%;
  
 }
@@ -19,17 +19,31 @@ html,body {
 #link-container{
     display: flex;
     margin-left: auto;
-    margin-right: 15vw;
+    margin-right: 12vw;
 } 
 
-h4{
+.header-link{
     margin-right: 20px;
 }
 
 h3{
-margin-left:15vw;
+margin-left:12vw;
 }
 
- .section{
-     height: 20vh;
+.section{
+    height: 20vh;
+    margin-left: 12vw;
+    margin-right: 12vw;
+
+    display: flex;
+    align-items: center;
+ }
+
+ #primary-text{
+
+ }
+
+ #primary-image{
+     max-height: 180px;
+     padding-left: 125px;
  }
