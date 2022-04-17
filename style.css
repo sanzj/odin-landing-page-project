@@ -26,7 +26,7 @@ html,body {
     margin-right: 20px;
 }
 
-h3{
+#header > h3{
     margin-left:12vw;
 }
 
@@ -57,6 +57,11 @@ h3{
  .section:nth-of-type(3) > h4{
     float: right;
     text-align: right;
+ }
+
+ .section:nth-of-type(4){
+    display: flex;
+    justify-content: center;
  }
 
  #primary-text{
@@ -92,3 +97,29 @@ h3{
 
     border: 1px solid black;
  }
+
+ #banner{
+    
+    display: flex;
+
+    height: 80%;
+    width: 80%;
+     border: 1px solid blue;
+ }
+
+ #banner-text-container{
+margin-top: 10px;
+ }
+
+ #sign-container{
+     display: flex;
+    margin-left: 150px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #sign-container > button{
+     height: 25px;
+}
+
+
