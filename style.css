@@ -1,125 +1,170 @@
 html,body {
-
-    height: 100vh;
+    height: 100%;
     width: 100%;
- 
+}
+
+.section,
+#header,
+#footer{
+    padding-left: 12vw;
+    padding-right: 12vw;   
 }
 
 #header,
 #footer{
     height: 10vh;
-    width: 100%;
-}
 
-#header{
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #link-container{
     display: flex;
     margin-left: auto;
-    margin-right: 12vw;
+    
 } 
 
 .header-link{
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
-#header > h3{
-    margin-left:12vw;
-}
+#top-section{
+    height:40vh ;
 
-.section{
-    height: 20vh;
-    margin-left: 12vw;
-    margin-right: 12vw;    
-}
-
-.section:nth-of-type(1){
     display: flex;
     align-items: center;
- }
+}
 
- .section:nth-of-type(2){
+ #image-section{
+    height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#quote-section{
+    height: 35vh;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
- }
+}
 
- .section:nth-of-type(3){
-     display: flex;
-     flex-direction: column;
+ #bottom-section{
+    height: 30vh;
+
+    display: flex;
     justify-content: center;
- }
+    align-items: center;
+}
 
- .section:nth-of-type(3) > h4{
+ #quote-section > h4{
     float: right;
     text-align: right;
- }
-
- .section:nth-of-type(4){
-    display: flex;
-    justify-content: center;
- }
-
- #primary-text{
-
- }
+}
 
  #primary-image{
-     max-height: 180px;
-     padding-left: 125px;
- }
+    max-height: 180px;
+    padding-left: 125px;
+}
 
  #secondary-image-container{
-     width: 100%;
-     display: flex;
-     justify-content: center;
+    display: flex;
+    justify-content: center;
 
- }
+}
 
  .info-images{
-     display: inline-block;
-     max-height: 150px;
-     max-width: 150px;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
 
-     text-align: center;
-
-     padding-left: 10px;
-     padding-right: 10px;
- }
+    padding-left: 35px;
+    padding-right: 35px;
+}
 
  .info-images > img{
-    max-height: 150px;
-    max-width: 125px;
+    max-height: 250px;
+    max-width: 150px;
 
-    border: 1px solid black;
- }
+
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
 
  #banner{
-    
     display: flex;
 
-    height: 80%;
-    width: 80%;
-     border: 1px solid blue;
- }
+    height: 50%;
+    width: 85%;
+    border-radius: 10px;
+    background-color: #3882f6;
+}
 
  #banner-text-container{
-margin-top: 10px;
- }
+    padding-left: 100px;
+}
 
  #sign-container{
      display: flex;
-    margin-left: 150px;
+    padding-left: 300px;
     justify-content: center;
     align-items: center;
- }
-
- #sign-container > button{
-     height: 25px;
 }
 
+#header,
+#top-section,
+#footer{
+    background-color: #1f2937;
+}
 
+#quote-section{
+    background-color: #e5e7eb;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+h3{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h4{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info-images > h4,
+#quote-section > h4{
+    color: #1f2937;
+}
+
+button{
+    height: 25px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    border-color: white;
+    background-color: #3882f6;
+}
+
+#primary-text > button{
+    border-style: none;
+}
+
+#sign-container > button{
+    border-style: solid;
+}
