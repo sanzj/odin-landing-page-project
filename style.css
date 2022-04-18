@@ -124,6 +124,10 @@ html,body {
     background-color: #e5e7eb;
 }
 
+h1,h2,h3,h4{
+    font-family: "Roboto serif";
+}
+
 h1{
     font-size: 48px;
     font-weight: bolder;
